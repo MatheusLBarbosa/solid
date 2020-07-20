@@ -1,6 +1,12 @@
-import ShareButton from './ShareButton';
+import ShareButtonTwitter from './ShareButtonTwitter';
+import ShareButtonLinkedin from './ShareButtonLinkedin';
+import ShareButtonFacebook from './ShareButtonFacebook';
 
-const shareButton = new ShareButton('https://www.linkedin.com/in/matheuslbarbosa/')
-shareButton.bind('.btn-facebook', 'facebook');
-shareButton.bind('.btn-twitter', 'twitter');
-shareButton.bind('.btn-linkedin', 'linkedin');
+const facebook = new ShareButtonFacebook('.btn-facebook', 'manganime.digital');
+const linkedin = new ShareButtonLinkedin('.btn-linkedin', 'manganime.digital');
+const twitter = new ShareButtonTwitter('.btn-twitter', 'manganime.digital');
+
+facebook.bind();
+twitter.bind();
+twitter.bind();
+
