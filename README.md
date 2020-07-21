@@ -9,3 +9,4 @@
 *Interface segregation principle*
     
 *Dependency Inversion principle*
+    Abstrações devem depender de outras abstrações
