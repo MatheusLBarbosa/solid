@@ -7,5 +7,5 @@
 *Liskov substitution principle*
     Uma sub-classe não pode quebrar as expectativas estabelecidas pela super-classe
 *Interface segregation principle*
-
+    
 *Dependency Inversion principle*
